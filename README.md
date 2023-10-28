@@ -3,13 +3,13 @@
     <img src="https://i.imgur.com/xmdzXU4.png" />
   </a>
   <h3>
-    Particle Pimlico Demo
+    Particle ZeroDev Demo
   </h3>
 </div>
 
-⚡️ ERC-4337 demo application showcasing utilization of [Particle Auth](https://docs.particle.network/developers/auth-service) (Smart WaaS) for account management (MPC-TSS social logins facilitating EOA creation as well as Smart Account deployment), alongside **Pimlico** for the bundler and paymaster.
+⚡️ ERC-4337 demo application showcasing utilization of [Particle Auth](https://docs.particle.network/developers/auth-service) (WaaS) as a signer (MPC-TSS social logins) within ZeroDev's SDK, facilitating smart account creation and interaction.
 
-Built using **Particle Auth**, **TypeScript**, **Ethers**, and **Permissionless**
+Built using **Particle Auth**, **TypeScript**, **ZeroDev**
 
 ## 🔑 Particle Auth
 Particle Auth, a component of Particle Network's Wallet-as-a-Service, enables seamless onboarding to an application-embedded MPC-TSS/AA wallet facilitated by social login, such as Google, GitHub, email, phone number, etc.
@@ -20,13 +20,11 @@ Particle Auth, a component of Particle Network's Wallet-as-a-Service, enables se
 
 👉 Learn more about Particle Network: https://particle.network
 
-![Particle Auth Example](https://i.imgur.com/h3kzW6r.png)
-
 ## 🛠️ Quickstart
 
 ### Clone this repository
 ```
-git clone https://github.com/TABASCOatw/particle-pimlico-demo.git
+git clone https://github.com/TABASCOatw/particle-zerodev-demo.git
 ```
 
 ### Install dependencies
@@ -43,8 +41,7 @@ This project requires a number of keys from Particle Network and WalletConnect t
 - `REACT_APP_APP_ID`, the ID of the corresponding application in your [Particle Network dashboard](https://dashboard.particle.network/#/applications).
 - `REACT_APP_PROJECT_ID`, the ID of the corresponding project in your [Particle Network dashboard](https://dashboard.particle.network/#/applications).
 -  `REACT_APP_CLIENT_KEY`, the client key of the corresponding project in your [Particle Network dashboard](https://dashboard.particle.network/#/applications).
--  `REACT_APP_PIMLICO_KEY`, an API key retrieved from the [Pimlico dashboard](https://dashboard.pimlico.io/).
--  `REACT_APP_RPC_URL`, an Ethereum Goerli RPC URL.
+-  `REACT_APP_ZERODEV_KEY`, the project ID retrieved from the [ZeroDev dashboard.](https://dashboard.zerodev.app/)
 
 ### Start the project
 ```
@@ -54,6 +51,3 @@ OR
 ```
 yarn dev
 ```
-
-##
-Originally featured in "[Leveraging Pimlico's Bundler and Paymaster with Particle Smart WaaS](https://twitter.com/TABASCOweb3/status/1717549871811469450)"
